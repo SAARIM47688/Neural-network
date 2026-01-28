@@ -9,9 +9,6 @@ st.title("Slope Factor of Safety (FOS) Predictor")
 
 st.write("Enter soil and slope parameters:")
 st.write("Uses an ML-based model for prediction.")
-st.markdown("""
-© 2026 Syed Saarim Ahmad. All rights reserved.
-This application is for academic and research purposes only.""")
 
 x1 = st.number_input("Slope Height (m)")
 x2 = st.number_input("Slope angle (deg)")
@@ -29,3 +26,6 @@ if st.button("Predict FOS"):
     X = np.array([[x1_n, x2_n, x3_n, x4_n, x5_n]])
     fos = model.predict(X)
     st.success(f"Predicted Factor of Safety = {fos[0][0]:.3f}")
+st.markdown("""
+© 2026 Syed Saarim Ahmad. All rights reserved.
+This application is for academic and research purposes only.""")

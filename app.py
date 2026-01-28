@@ -9,7 +9,7 @@ st.title("Slope Factor of Safety (FOS) Predictor")
 
 st.write("Uses an ML-based model for prediction.")
 st.write("Enter soil and slope parameters:")
-st.write("30≤Height≤50, 20≤Angle≤50, 1500≤Density≤2500, 20≤Cohesion≤60, 20≤Internal friction≤30")
+st.write("30 ≤ Height ≤ 50, 20 ≤ Angle ≤ 50, 1500 ≤ Density ≤ 2500, 20 ≤ Cohesion ≤ 60, 20 ≤ Internal friction ≤ 30")
 
 x1 = st.number_input("Slope Height (m)")
 x2 = st.number_input("Slope angle (deg)")

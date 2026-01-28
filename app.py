@@ -8,7 +8,10 @@ model = tf.keras.models.load_model("slope_fos_model.keras")
 st.title("Slope Factor of Safety (FOS) Predictor")
 
 st.write("Enter soil and slope parameters:")
-st.write("Uses an ML-based model for prediction. For academic purposes only")
+st.write("Uses an ML-based model for prediction.")
+st.markdown("""
+© 2026 Syed Saarim Ahmad. All rights reserved.
+This application is for academic and research purposes only.""")
 
 x1 = st.number_input("Slope Height (m)")
 x2 = st.number_input("Slope angle (deg)")

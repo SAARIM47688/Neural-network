@@ -17,8 +17,8 @@ x3 = st.number_input("Material Density (Kg/m³)")
 x4 = st.number_input("Cohesion (kPa)")
 x5 = st.number_input("Angle of internal friction (deg)")
 
-x1_n = (x1-30)/20
-x2_n = (x2-20)/30
+x1_n = (x1-20)/40
+x2_n = (x2-30)/15
 x3_n = (x3-1500)/1000
 x4_n = (x4-20)/40
 x5_n = (x5-20)/10
